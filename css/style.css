@@ -95,17 +95,25 @@ ul {
 }
 
 /* Hero*/
+.hero-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+
+
+color: #FFFFFF;
+
+}
 .hero {
   background-color: #2e2f42;
 }
 
-.hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
+
 .button {
   background-color: #4d5ae5;
 
@@ -176,14 +184,8 @@ ul {
   background-color: #f4f4fd;
 }
 
-.hero-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
+
+
 .team-list {
   background-color: #ffffff;
 }
