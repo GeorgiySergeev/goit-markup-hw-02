@@ -1,11 +1,5 @@
 :root {
-  --primary-brand: #4d5ae5;
-  --dark: #2e2f42;
-  --sucsess: #31d0aa;
-  --body-text: #434455;
-  --subtitle-text: #8e8f99;
-  --accent: #e7e9fc;
-  --light: #f4f4fd;
+  
 }
 body {
   background-color: #ffffff;
@@ -124,7 +118,7 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  background-color: var(--primary-brand);
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;          
 }
@@ -144,7 +138,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: var(--primary-brand);
+color: #4d5ae5;
 background-color: #F4F4FD;
 cursor: pointer;
 
