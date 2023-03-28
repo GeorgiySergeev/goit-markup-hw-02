@@ -5,13 +5,13 @@ body {
 }
 
 :root {
-  --primary-brand: #4d5ae5;
+  /*--primary-brand: #4d5ae5;
   --dark: #2e2f42;
   --sucsess: #31d0aa;
   --body-text: #434455;
   --subtitle-text: #8e8f99;
   --accent: #e7e9fc;
-  --light: #f4f4fd;
+  --light: #f4f4fd;*/
 }
 
 ul {
@@ -113,16 +113,17 @@ color: #FFFFFF;
   background-color: #2e2f42;
 }
 
+/*BUTTONS*/
 
 .button {
-  background-color: #4d5ae5;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
 }
@@ -130,6 +131,30 @@ color: #FFFFFF;
 .button:focus {
   background-color: #404bbf;
 }
+
+
+.button-portfolio {
+ font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background-color: #F4F4FD;
+cursor: pointer;
+
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  color: #FFFFFF;
+  background-color: #404bbf;
+}
+
+
 
 /* Section-2 Features*/
 
